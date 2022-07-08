@@ -13,7 +13,7 @@ fun tangerine(
 
 /* Overriding methods always use the same default parameter values as the base method.
 When overriding a method that has default parameter values,
-the default parameter values must be omitted from the signature:*/
+the default parameter values must be omitted from the signature: */
 open class A {
   open fun melon(i: Int = 10): Int {
     return 2 * i

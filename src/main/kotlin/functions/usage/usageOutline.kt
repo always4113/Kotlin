@@ -9,8 +9,6 @@ fun main() {
   println("result5 is $result5")
   println("result6 is $result6")
   println("result7 is $result7")
-  println("result8 is $result8")
-  
 }
 
 //  Functions are called using the standard approach:
@@ -27,4 +25,4 @@ val result4 = para2(4, 5)
 val result5 = tangerine(2)
 val result6 = B().melon()
 val result7 = banana(taste = 2, size = 6)
-val result8 = cookie { println("hello, Kotlin!") } // Didn't Work.
+
