@@ -9,6 +9,9 @@ fun main() {
   println("result5 is $result5")
   println("result6 is $result6")
   println("result7 is $result7")
+  println("result8 is $result8")
+  println("result9 is $result9")
+  println("result10 is $result10")
 }
 
 //  Functions are called using the standard approach:
@@ -26,3 +29,11 @@ val result5 = tangerine(2)
 val result6 = B().melon()
 val result7 = banana(taste = 2, size = 6)
 
+// namedArguments.kt
+
+// unitReturningFunctions.kt
+val result8 = printHello("")
+
+// singleExpressionFunctions.kt
+val result9 = watermelon(5)
+val result10 = apple(5)
